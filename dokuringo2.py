@@ -10,7 +10,7 @@ COL_BODY = 11
 COL_HEAD = 7
 COL_DEATH = 8
 COL_APPLE = 8
-COL_POISON_APPLE = 13  # 毒りんごの色
+COL_POISON_APPLE = 8  # 毒りんごの色
 
 TEXT_DEATH = ["GAME OVER", "(Q)UIT", "(R)ESTART"]
 COL_TEXT_DEATH = 0
@@ -49,6 +49,7 @@ class Snake:
         self.poison_apples_visible = False 
         self.eaten_apples=0
         self.generate_apple()
+
       
 
         pyxel.playm(0, loop=True)
