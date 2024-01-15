@@ -48,7 +48,6 @@ class Snake:
         self.poison_apples=[]
         self.poison_apples_visible = False 
         self.eaten_apples=0
-        self.last_poison_time = time.time()#毒りんごのタイムを追跡する変数
         self.generate_apple()
       
 
